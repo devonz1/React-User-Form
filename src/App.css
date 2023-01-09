@@ -1,0 +1,43 @@
+ .Auth-form {
+   border-radius: 35px;
+   border: 2px solid white;
+   color: white;
+   padding: 30px;
+   margin: 300px;
+   width: 400px
+ }
+
+
+ label {
+   color: white;
+ }
+
+ html,
+ body {
+   background-color: #282c34;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+ }
+
+
+ .Auth-form-container {
+   display: table;
+   width: 500px;
+   margin: auto;
+   max-width: 90%;
+   margin-top: 200px;
+   /*this margin top css will put the form in the center
+   of the page*/
+ }
+
+ .Auth-form {
+   display: table-cell;
+   vertical-align: middle;
+
+ }
+
+ h3 {
+   color: #61dafb;
+
+ }
