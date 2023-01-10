@@ -1,14 +1,16 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
+  
  
  
 
+
+ 
  
 function App() {
   return (
-     
-    <div className="Auth-form-container">
+        <div className="Auth-form-container">
     <form className="Auth-form">
 <div className="Auth-form-content">
 <div className="form-group mt-3">
@@ -32,13 +34,14 @@ function App() {
           
         </div>
          </div>
-
-
-</form>
+         </form>
   </div>
-  )     
+
+   );    
   }
 
+  
 
  export default App;
+ 
  
