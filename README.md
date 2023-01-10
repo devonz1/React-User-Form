@@ -2,11 +2,14 @@
 
 <br>
 
-This Project Was Built Using React Css and FlexBox it 
+ <p>This Project Was Built Using React Css and FlexBox it  
+ 
 is Modeled after a College Website Student Sign in Portal. <br>
-It has different Links for the Student to navigate to different pages 
-once they sign Into the Student Portal.
+
+It has multiple navigation Links for the Student to navigate to different pages 
+
+once they sign Into the Student Portal.</p>
  
  
  
- <im
+ <img src = "screencapture-localhost-3000-2023-01-09-21_43_15.png">
