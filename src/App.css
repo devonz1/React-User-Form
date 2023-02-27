@@ -1,33 +1,36 @@
- 
  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(12, 177, 169);
-  display: flex;
-  justify-content: space-around; /*this will space out the letters in the
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: rgb(12, 177, 169);
+   display: flex;
+   justify-content: space-around;
+   /*this will space out the letters in the
   navigation bar*/
 
-}
+ }
+
+ button {
+   border-radius: 12px;
+   font-size: 20px;
+ }
+
+ li {
+   float: left;
+
+ }
+
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+
+ }
 
 
-
-li {
-  float: left;
-  
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  
-}
-     
-  
  .Auth-form {
    border-radius: 35px;
    border: 2px solid white;

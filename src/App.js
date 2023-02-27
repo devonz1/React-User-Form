@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
 import Nav from './components/Navbar'; /*this will import the
@@ -15,8 +16,7 @@ function App() {
 <div className="Auth-form-content">
 <div className="form-group mt-3">
     <label>Username</label>
-    <input 
-    type="username"
+    <input type= "text"  name="username" 
     className= "form-control mt-1"
     placeholder = "Enter username"
     />
@@ -30,7 +30,7 @@ function App() {
     />
     </div>
       <div> 
-          <h3>Log In</h3>
+          <button>Log In</button>
           
         </div>
          </div>
