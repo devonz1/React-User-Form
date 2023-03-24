@@ -1,47 +1,44 @@
 import React from 'react';
-import { useState } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
 import Nav from './components/Navbar'; /*this will import the
 code from the nav component into app.js*/
- 
- 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Logn from './components/logn';
+import Academ from './components/academics';
+import Admiss from './components/admission';
+import Classc from './components/classsched';
+import About from './components/about';
+
 
 function App() {
+
+
   return (
-    <> 
-   <Nav />
-        <div className="Auth-form-container">
-    <form className="Auth-form">
-<div className="Auth-form-content">
-<div className="form-group mt-3">
-    <label>Username</label>
-    <input type= "text"  name="username" 
-    className= "form-control mt-1"
-    placeholder = "Enter username"
-    />
-    </div>
-    <div className="form-group mt-3"> 
-    <label>Password</label>
-    <input 
-    type="password"
-    className="form-control mt-1"
-    placeholder  = "Enter Password"
-    />
-    </div>
-      <div> 
-          <button>Log In</button>
-          
-        </div>
-         </div>
-         </form>
-  </div>
-      </>
-   );    
-  }
+    <>
 
-  
+      <div>
+        <BrowserRouter>
+          <Nav />
+          <Routes>
+            <Route exact path="/" element={<Logn />} />
+            <Route path='/academics' element={<Academ />} />
+            <Route path='/admission' element={<Admiss />} />
+            <Route path='/classsched' element={<Classc />} />
+            <Route path='/about' element={<About />} />
+          </Routes>
 
- export default App;
- 
- 
+
+        </BrowserRouter>
+
+      </div>
+
+    </>
+  );
+}
+
+
+
+export default App;
+
+

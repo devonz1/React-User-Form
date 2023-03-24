@@ -1,31 +1,34 @@
 import React from 'react';
- 
+import { NavLink } from 'react-router-dom';
 
- function Nav(){
-         return(
- 
-    <div > 
+
+
+
+const Nav = ()=> {
+  return (
+  
+    <div >
       <ul>
-      <li>
-      <a href="default.asp">Admissions</a>
-      </li>
-      <li>
-      <a href="news.asp">Class Schedule</a>
-      </li>
-      <li>
-      <a href="news.asp">Academics</a>
-      </li>
-      <li>
-      <a href="about.asp">About</a>
-      </li>
+        <li>
+          <NavLink to='/admission'>Admissions</NavLink>
+        </li>
+        <li>
+          <NavLink to='/classsched'>Class Schedule</NavLink>
+        </li>
+        <li>
+          <NavLink to='/academics'>Academics</NavLink>
+        </li>
+        <li>
+          <NavLink to='/about'>About</NavLink>
+        </li>
       </ul>
-      
-    </div>
-         );
-    }
-  
-  
-  export default Nav;
 
-  
- 
+    </div>
+     
+  );
+}
+
+
+export default Nav;
+
+
