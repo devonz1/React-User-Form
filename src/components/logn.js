@@ -9,8 +9,13 @@ const  Logn= () =>{
         const [username, setUsername] = useState();
         const [password, setPassword]= useState();
 
-      const navigate= useNavigate('/academics');
+      const navigate= useNavigate();
+       navigate('/admission') ;  
 
+       function handleClick() { 
+        navigate('/admission');
+
+      }
     return(
         <>
         <div className="Auth-form-container">
@@ -25,15 +30,17 @@ const  Logn= () =>{
         </div>
         <div className="form-group mt-3"> 
         <label>Password</label>
-        <input type="password" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}"
+        <input type="password" name="password" required 
+               id="pwd"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
           title="password must contain five or more characters with at least one number, one
           uppercase and lowercase letter "
         className="form-control mt-1"
         placeholder  = "Enter Password"
+         
         />
         </div>
           <div> 
-              <button onClick={navigate} >Log In</button>
+              <button onClick={handleClick} >Log In</button>
               
             </div>
              </div>
