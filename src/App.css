@@ -11,9 +11,20 @@
 
  }
 
- button {
-   border-radius: 12px;
-   font-size: 20px;
+ .btn-primary {
+   background-color: #1e62a1;
+   border-color: #1456ad;
+
+ }
+
+ .flex-container {
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 2px;
+
  }
 
  li {

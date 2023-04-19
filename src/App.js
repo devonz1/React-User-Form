@@ -13,6 +13,7 @@ import About from './components/about';
 
 function App() {
 
+  <Logn />
 
   return (
     <>
