@@ -10,6 +10,14 @@ It has multiple navigation Links for the Student to navigate to different pages
 
 once they sign Into the Student Portal.</p>
  
+ #  TECHNOLOGY USED
+REACT ROUTER<br>
+REACT <br>
+Reponsive Flex Box Css<br>
+Bootstrap For Styling
+
+ #  SCREENSHOTS
  
  
- <img src = "screencapture-localhost-3000-2023-01-09-21_43_15.png">
+ 
+ <img src = "Screenshot 2023-04-19 125910.png">
