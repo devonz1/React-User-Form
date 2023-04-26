@@ -40,7 +40,7 @@ const  Logn= () =>{
         />
         </div>
           <div class="flex-container"> 
-              <button type="button" class="btn btn-primary "    onClick={handleClick} >Log In</button>
+              <button type="button" class="btn btn-primary "    onClick  >Log In</button>
               
             </div>
              </div>
