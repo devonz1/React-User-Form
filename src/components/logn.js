@@ -2,8 +2,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
  
-
-
+ 
+ 
 
 const  Logn= () =>{
         const [username, setUsername] = useState();
@@ -15,9 +15,15 @@ const  Logn= () =>{
        function handleClick() { 
         navigate('/admission');
 
+        
+
       }
     return(
+         
+          
+         
         <>
+           
         <div className="Auth-form-container">
         <form className="Auth-form">
     <div className="Auth-form-content">
@@ -25,8 +31,9 @@ const  Logn= () =>{
         <label>Username</label>
         <input type= "text"  name="username" required
         className= "form-control mt-1"
-        placeholder = "Enter username"
-        />
+        placeholder = "Enter username"></input>
+        
+        
         </div>
         <div className="form-group mt-3"> 
         <label>Password</label>
@@ -36,20 +43,26 @@ const  Logn= () =>{
           uppercase and lowercase letter "
         className="form-control mt-1"
         placeholder  = "Enter Password"
-         
+            
+        
+          
         />
+        
+         
         </div>
-          <div class="flex-container"> 
-              <button type="button" class="btn btn-primary "    onClick  >Log In</button>
+          <div className="flex-container"> 
+              <button type="button" className="btn btn-primary "    onClick  >Log In</button>
               
             </div>
              </div>
-             </form>
+             </form> 
+            
       </div>
+        
   </>
     )
 }
-
+ 
 
 export default Logn;
 

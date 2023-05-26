@@ -1,3 +1,5 @@
+ 
+ 
  ul {
    list-style-type: none;
    margin: 0;
@@ -62,8 +64,14 @@
    height: 100%;
    margin: 0px;
    padding: 0px;
+   
  }
 
+
+
+  .imeg{
+   background-image: url('./components/background.jpg');
+  }
 
  .Auth-form-container {
    display: table;
