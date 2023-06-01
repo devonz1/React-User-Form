@@ -25,7 +25,7 @@
  .flex-container {
    display: flex;
    justify-content: flex-start;
-   margin-top: 10px;
+   margin-top: 11px;
    margin-bottom: 15px;
    margin-right: 10px;
    margin-left: 2px;
@@ -80,7 +80,7 @@
    width: 500px;
    margin: auto;
    max-width: 90%;
-   margin-top: 200px;
+   margin-top: 180px;
    /*this margin top css will put the form in the center
    of the page*/
    

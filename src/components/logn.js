@@ -1,6 +1,6 @@
 
 import { useState } from "react";
- import { Button } from "bootstrap";
+ 
  
  
  
@@ -11,7 +11,15 @@ const  Logn= () =>{
 
        const handleSubmit=(e)=>{
         e.preventDefault();
-         
+        const passwordPattern= /^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$/;
+         const setPasswordError= ("");
+
+         if(!passwordPattern.test(password)){
+          setPasswordError("Password requirements: 8-20 characters, 1 number, 1 letter, 1 symbol.");
+          return;
+         }
+         alert("Signed in Sucessfully")
+
        };
 
         
@@ -47,23 +55,16 @@ const  Logn= () =>{
 
    <button className="btn btn-primary">Log In</button>
            
-     </form>
-        
-        
-        
-          </div>
-         
-        
-            
-             
-            
+     </form>  
+          </div>  
      
        );
        };
-  
-    
- 
- 
 
 export default Logn;
 
+/* line 16 we will test to see if the user password meets
+the password pattern requirement . Were passing in password as the argument and the logical
+operator to see if the pattern returns true or false if false it will display
+a error message if the password doesn't fit the requirements if true the User will be
+ allowed to sign in*/

@@ -37,7 +37,13 @@ function App() {
     </>
   );
 }
-
+ /*line 22 we will be using React router so that the user can navigate through
+ each component to navigate through the website. Each component has a route path
+ tied to its component and we use the element property and add the
+ component name directly into the element property so once the user clicks on a specific link
+  in the navigation bar react knows which page to jump to or which component to jump to.
+ 
+ */
 
 
 export default App;
