@@ -1,4 +1,4 @@
- <h2>Student Sign-in Portal  </h2>
+ <h2> React Student Sign-in Portal  </h2>
 
 <br>
 
@@ -20,4 +20,4 @@ Bootstrap For Styling
  
  
  
- <img src = "Screenshot 2023-04-19 125910.png">
+ <img src = "user form.png">
