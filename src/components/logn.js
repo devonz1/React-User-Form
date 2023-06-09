@@ -1,34 +1,34 @@
 
-import { useState } from "react";
+import React, { useState } from "react";
  
  
  
  
 
 const  Logn= () =>{
-        const [username, setUsername] = useState();
-        const [password, setPassword]= useState();
-
+        const [username, setUsername] = useState("");
+        const [password, setPassword,]= useState("");
+         
        const handleSubmit=(e)=>{
-        e.preventDefault();
+        e.preventDefault(); 
+        const setPasswordError=("")
         const passwordPattern= /^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$/;
-         const setPasswordError= ("");
-
+          
          if(!passwordPattern.test(password)){
-          setPasswordError("Password requirements: 8-20 characters, 1 number, 1 letter, 1 symbol.");
+        setPasswordError("Password requirements: 8-20 characters, 1 number, 1 letter, 1 symbol.");
           return;
          }
-         alert("Signed in Sucessfully")
+          
+         alert("Signed in Sucessfully");
+         
 
        };
 
         
-
-      
     return(
         
         <div className="Auth-form-container">
-        <form onSubmit={handleSubmit} autocomplete="off" className="Auth-form">
+        <form onSubmit={handleSubmit} autoComplete="off" className="Auth-form">
            <h1>Sign-in</h1>
            <div className="flex-container form-group row">
            <label className="col-sm-3 col-form-label">Username</label>
@@ -52,8 +52,8 @@ const  Logn= () =>{
 
    </div>
 
-
-   <button className="btn btn-primary">Log In</button>
+   <button type="submit" className="btn btn-primary">Log In</button>
+    
            
      </form>  
           </div>  

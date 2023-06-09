@@ -1,6 +1,7 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../src/App.css';
+import'../src/index.css';
 import Nav from './components/Navbar'; /*this will import the
 code from the nav component into app.js*/
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -9,12 +10,12 @@ import Academ from './components/academics';
 import Admiss from './components/admission';
 import Classc from './components/classsched';
 import About from './components/about';
-
+ 
 
 function App() {
 
   <Logn />
-
+  
   return (
     <>
 
@@ -26,7 +27,7 @@ function App() {
             <Route path='/academics' element={<Academ />} />
             <Route path='/admission' element={<Admiss />} />
             <Route path='/classsched' element={<Classc />} />
-            <Route path='/about' element={<About />} />
+            <Route path='/about' element= {<About />} />
           </Routes>
 
 
