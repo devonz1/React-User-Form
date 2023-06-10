@@ -10,7 +10,7 @@ import Academ from './components/academics';
 import Admiss from './components/admission';
 import Classc from './components/classsched';
 import About from './components/about';
- 
+  
 
 function App() {
 
