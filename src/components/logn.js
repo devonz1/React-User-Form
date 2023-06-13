@@ -1,8 +1,7 @@
 
 import React, { useState } from "react";
- 
- 
- 
+ import Image from "../images/background1.jpg";
+ import LogCSS from "../components/login.module.css";
  
 
 const  Logn= () =>{
@@ -20,15 +19,21 @@ const  Logn= () =>{
          }
           
          alert("Signed in Sucessfully");
-         
+        };
+         const img=[
+          {
+            url:Image
+          },
 
-       };
+         ];
+        
 
         
     return(
-        
+          
+          
         <div className="Auth-form-container">
-        <form onSubmit={handleSubmit} autoComplete="off" className="Auth-form">
+        <form onSubmit={handleSubmit} autoComplete="off" className="Auth-form app">
            <h1>Sign-in</h1>
            <div className="flex-container form-group row">
            <label className="col-sm-3 col-form-label">Username</label>
@@ -49,17 +54,21 @@ const  Logn= () =>{
            placeholder="Enter a strong password"
            onChange={(e) => setPassword(e.target.value)}
    /> 
-
+      
    </div>
-
+    
    <button type="submit" className="btn btn-primary">Log In</button>
     
-           
+   
      </form>  
+      
           </div>  
-     
+          
+           
        );
+        
        };
+        
 
 export default Logn;
 

@@ -1,23 +1,28 @@
 
-import React from "react";
+ 
 
 
 
 
 const Academ = () => {
 
+
+
+
+
     return(
+        <> 
 
-
+        <body className="about"> 
      
-        <h1>
-            hjkkk
-        </h1>
+         <div>
+         
+         </div>
      
    
    
-   
-   
+        </body>
+         </>
         );
 
 

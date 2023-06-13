@@ -5,22 +5,35 @@
 
 const Admiss = () => {
 
+
+
+
+
+
+
     return(
 
 
+        <> 
+      <body className="bg-white"> 
+
+
+
      <div>
-        <h1>hello</h1>
+        
      </div>
    
    
    
-   
-   
+     </body>
+
+
+     </>
         );
 
 
 
 
-}
+};
 
 export default Admiss;

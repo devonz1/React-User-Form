@@ -17,9 +17,11 @@ function App() {
   <Logn />
   
   return (
+     
     <>
+       
 
-      <div>
+      <div >
         <BrowserRouter>
           <Nav />
           <Routes>
@@ -34,8 +36,9 @@ function App() {
         </BrowserRouter>
 
       </div>
-
+       
     </>
+     
   );
 }
  /*line 22 we will be using React router so that the user can navigate through

@@ -1,7 +1,11 @@
  
-
+.app{
+  background-color:#282c34 ;
+}
+ .about{
+   background-color: white;
+ } 
   
- 
  ul {
    list-style-type: none;
    margin: 0;
@@ -65,15 +69,13 @@
 
  html,
  body {
-   background-color: #282c34;
    height: 100%;
    margin: 0px;
    padding: 0px;
-   
+   background-color: #282c34;
    
  }
-
-
+  
  
   
 
