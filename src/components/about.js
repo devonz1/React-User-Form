@@ -25,13 +25,13 @@ const About = () => {
                     <div style={{ backgroundImage: `url(${slides[2].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration 500'>
 
                   {/*left arrow*/}
-                   <div>
-                    <BsChevronCompactLeft size />
+                   <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                    <BsChevronCompactLeft size={30} />
                    </div>
 
                    {/*right arrow*/}
-                    <div>
-                    <BsChevronCompactRight />
+                    <div className='absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+                    <BsChevronCompactRight size={30} />
                     </div>
                     </div>
 
