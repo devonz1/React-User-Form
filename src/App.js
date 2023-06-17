@@ -41,6 +41,11 @@ function App() {
      
   );
 }
+ /*At the top of the Page We import all the component Routes so that they will be acessible
+ inside the react router . Without importing the components when a user clicks on one of the 
+ navigational links  on the site React won't be able to access the route to jump to
+ */
+ 
  /*line 22 we will be using React router   to route to different
  pages based on the URL so that the user can navigate through
  each component and navigate through the website. Each component has a route path
