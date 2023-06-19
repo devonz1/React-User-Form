@@ -26,7 +26,12 @@ const About = () => {
         setCurrentIndex(newIndex);
     };
 
-    const nextSlide = () => {};
+    const nextSlide = () => {
+        const isLastSlide = currentIndex === slides.length -1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex);
+
+    };
     
     return (
         <>
