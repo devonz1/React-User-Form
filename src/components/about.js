@@ -3,6 +3,7 @@ import backgroundImage from '../images/background.jpg';
 import Image from '../images/college-classroom.jpg';
 import Image2 from '../images/college-library.jpg';
 import  {BsChevronCompactLeft,BsChevronCompactRight} from 'react-icons/bs'
+ import {RxDotFilled} from 'react-icons/rx'
 
 const About = () => {
 
@@ -36,7 +37,10 @@ const About = () => {
     return (
         <>
             <body className="about">
-                <div className='max-w-[900px] h-[680px] w-full m-auto py-16 px-4 relative group'>
+                 
+                <h3 className="center">About</h3>
+                
+                <div className='max-w-[700px] h-[480px] w-full m-auto py-16 px-4 relative group'>
                     <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration 500'>
 
                   {/*left arrow*/}
@@ -49,7 +53,11 @@ const About = () => {
                     <BsChevronCompactRight onClick={nextSlide} size={30} />
                     </div>
                     </div>
+                 <p>
+                   
 
+
+                 </p>
                 </div>
 
 

@@ -3,7 +3,7 @@
   background-color:#282c34 ;
 }
  .about{
-   background-color: white;
+    background-color: white;
  } 
   
  ul {
@@ -67,16 +67,28 @@
    color: white;
  }
 
- html,
+html,
  body {
    height: 100%;
    margin: 0px;
    padding: 0px;
-   background-color: #282c34;
+  background-color: white;
    
  }
+
+ .center{
+  margin: auto;
+  width: 10%;
+  margin-top: 40px;
+  display: table;
+ color: black;
+ font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+ }
   
- 
+ .logn1{
+  background-color: #282c34;
+ }
   
 
  .Auth-form-container {
