@@ -1,5 +1,5 @@
 
- 
+
 
 
 
@@ -10,20 +10,20 @@ const Academ = () => {
 
 
 
-    return(
-        <> 
+    return (
+        <>
 
-        <body className="about"> 
-     
-         <div>
-         
-         </div>
-     
-   
-   
-        </body>
-         </>
-        );
+            <body className="about">
+
+                <div>
+
+                </div>
+
+
+
+            </body>
+        </>
+    );
 
 
 
