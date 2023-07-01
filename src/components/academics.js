@@ -1,3 +1,4 @@
+import Card from "./card";
 
 
 
@@ -12,16 +13,14 @@ const Academ = () => {
 
     return (
         <>
-
-            <body className="about">
-
-                <div>
+              <div>
+                <Card title="Accounting"/>
 
                 </div>
 
 
 
-            </body>
+             
         </>
     );
 
