@@ -12,16 +12,18 @@ const Card = (props) =>{
 
 
 return (
-
+<>
   <div>
    <h4>{props.title}</h4>
-   <img src={Image3}  width="300"  alt='img'/>
+   <img src={props.img}  width="300"  alt='img'/>
+  </div> 
   
+ <div>
+ <h4>{props.title}</h4>
+ <img src={props.img}  width="300"  alt='img'/>
+</div>
 
-  </div>
-
-
-
+</>
 );
 
  
