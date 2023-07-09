@@ -3,7 +3,7 @@ import backgroundImage from '../images/background.jpg';
 import Image from '../images/college-classroom.jpg';
 import Image2 from '../images/college-library.jpg';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
-import { RxDotFilled } from 'react-icons/rx'
+ 
 
 const About = (props) => {
 
