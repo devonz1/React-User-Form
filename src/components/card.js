@@ -47,16 +47,20 @@ const Card = () => {
       "description": " Arts and Sciences",
       url: Image9
    },
-    
+    /*  line 16 we have declared a variable called cardobj to hold our object array that we will 
+    be mapping through.  down below line 56 we create a arrow function
+     that will help us map through our array we will assign cardobj as 
+     our parameter in our function and we will be assigning a react key to cardobj.id  
+    so that react can keep track of any changes within our key-value pairs inside
+    our object */
 ]
   const cardob= cardobj.map((cardobj)=>(
     <div className='objitem' key={cardobj.id}>
     <h2 className="objname">{cardobj.description}</h2>
-    <div className="coulumn">
     <img src={cardobj.url} width={350}   alt={cardobj.description}/>
-    
+
      </div>
-    </div>
+    
   ))
    
 
