@@ -4,8 +4,8 @@ import Image4 from '../images/accounting-img1.jpg';
 import Image5 from '../images/architecture-img2.jpg';
 import Image6 from '../images/business-img 5.jpg';
 import Image7 from '../images/arts-technology-img 4.jpg';
-import Image8 from '../images/sca-img 9.jpg'
-import Image9 from '/images/letter-arts-sciences-img 8.jpg'
+import Image8 from '../images/sca- img 9.jpg';
+import Image9 from '../images/letter-arts-sciences- img 8.jpg';
 
 
 
@@ -13,7 +13,7 @@ import Image9 from '/images/letter-arts-sciences-img 8.jpg'
 const Card = () => {
   
   
-  const img = [
+  const cardobj = [
 
     {
       "id": 1,
@@ -44,21 +44,32 @@ const Card = () => {
    },
    {
       "id": 6,
-      "description": "Letters, Arts, and Sciences",
+      "description": " Arts and Sciences",
       url: Image9
    },
-   
+    
 ]
+  const cardob= cardobj.map((cardobj)=>(
+    <div className='objitem' key={cardobj.id}>
+    <h2 className="objname">{cardobj.description}</h2>
+    <div className="coulumn">
+    <img src={cardobj.url} width={350}   alt={cardobj.description}/>
+    
+     </div>
+    </div>
+  ))
+   
 
+  
 
 
 
   return (
     <>
-      <div>
-        <h4>{props.title}</h4>
-        <img src={props.img} width="300" alt='img' />
-      </div>
+       
+        <div className="flex-container">
+          {cardob}
+        </div>
 
 
 
@@ -66,6 +77,6 @@ const Card = () => {
   );
 
 
-}
+    }
 
 export default Card;

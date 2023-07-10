@@ -13,15 +13,9 @@ const Academ = () => {
 
     return (
         <>
-              <div className="row1">
-              
-                 
-                 
-
-                </div>
-
-
-
+      <div>       
+     <Card />
+</div>
              
         </>
     );
