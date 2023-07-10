@@ -13,7 +13,8 @@ const Academ = () => {
 
     return (
         <>
-      <div>       
+      <div>  
+        <h1 className="Academia">Academics</h1>     
      <Card />
 </div>
              

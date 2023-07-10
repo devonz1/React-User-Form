@@ -57,12 +57,13 @@
    padding-top: 4px;
    font-size: 1.2rem;
    font-weight: bold;
-   color: black;
+   color: rgb(0, 119, 128);
    width: 50px;
    padding: 20px;
    margin: 5px;
    white-space: nowrap;
    text-overflow: clip;
+   text-decoration: underline;
  }
 
  /*  in the objname class whe whitespace  property  no wrap keeps the text 
@@ -80,7 +81,12 @@ from breaking to a second line it keeps everything on the same line*/
 
  }
 
+ .Academia {
+   padding-top: 10px;
+   margin-bottom: 8px;
+   font-family: v;
 
+ }
 
  .objitem img {
    box-shadow: 3rem;
@@ -92,9 +98,18 @@ from breaking to a second line it keeps everything on the same line*/
  .flex-container {
    display: flex;
    flex-wrap: wrap;
+   margin: 10px;
+   padding: 5px;
+
+ }
+
+
+
+ .flex-contain {
+   display: flex;
+   flex-wrap: wrap;
    justify-content: space-evenly;
    background-color: rgb(255, 255, 255);
-
  }
 
  .row1 {

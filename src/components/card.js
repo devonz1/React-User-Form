@@ -71,7 +71,7 @@ const Card = () => {
   return (
     <>
        
-        <div className="flex-container">
+        <div className="flex-contain">
           {cardob}
         </div>
 
