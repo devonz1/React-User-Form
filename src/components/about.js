@@ -2,6 +2,7 @@ import { Component, useState } from "react";
 import backgroundImage from '../images/background.jpg';
 import Image from '../images/college-classroom.jpg';
 import Image2 from '../images/college-library.jpg';
+import styles from '../about.module.css'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
  
 
@@ -36,7 +37,7 @@ const About = (props) => {
 
     return (
         <>
-            <body className="about">
+            <body className ={styles.about}>
 
                 <h3 className="center">About</h3>
 

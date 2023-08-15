@@ -1,6 +1,16 @@
- .app {
-   background-color: #282c34;
- }
+@media (min-width: 1024px) {
+    
+}
+
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  
+}
+
+
+@media (max-width: 767px) {
+  
+}
 
  .about {
    background-color: white;
@@ -26,17 +36,17 @@
  .btn-primary {
    background-color: #1e62a1;
    border-color: #1456ad;
-
+   margin-left: 16px ;
  }
 
  .flex-container {
    display: flex;
    justify-content: flex-start;
-   margin-top: 11px;
-   margin-bottom: 15px;
+   margin-top: 10px;
+   margin-bottom: 12px;
    margin-right: 10px;
    margin-left: 2px;
-
+   
  }
 
  li {
@@ -129,12 +139,12 @@ from breaking to a second line it keeps everything on the same line*/
   */
 
  .Auth-form {
-   border-radius: 20px;
-   border: 3px solid white;
-   color: white;
-   padding: 18px;
-   margin: 300px;
-   width: 300px;
+    
+  border: 3px solid white;
+  color: white;
+  padding: 18px;
+  margin: 300px;
+  width: 300px;
  }
 
 
@@ -164,7 +174,7 @@ from breaking to a second line it keeps everything on the same line*/
    display: table;
    color: black;
    font-size: 50px;
-   font-family: Arial, Helvetica, sans-serif
+   font-family: v;
  }
 
  .logn1 {

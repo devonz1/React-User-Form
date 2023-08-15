@@ -1,0 +1,11 @@
+.logn{
+    background:url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    position: fixed; 
+    right:0;
+    left: 0;
+}
+
+/* the module above will add the background image into the login component*/

@@ -1,5 +1,5 @@
 import Card from "./card";
- 
+import style from "../academics.module.css"
 
 
 
@@ -11,15 +11,17 @@ const Academ = () => {
 
 
 
-    return (
-        <>
-      <div>  
-        <h1 className="Academia">Academics</h1>     
-     <Card />
-</div>
-             
-        </>
-    );
+  return (
+    <>
+    
+      
+      <div className={style.academics}>
+        <h1 className= "Academia">Academics</h1>
+        <Card />
+      </div>
+       
+    </>
+  );
 
 
 

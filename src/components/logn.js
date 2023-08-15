@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import Image from "../images/background1.jpg";
-import LogCSS from "../components/login.module.css";
+import styles from "../login.module.css";
 
 
 const Logn = () => {
@@ -31,8 +31,8 @@ const Logn = () => {
 
   return (
 
-
-    <div className="Auth-form-container">
+   <body className ={styles.logn}> 
+    <div className= "Auth-form-container">
       <form onSubmit={handleSubmit} autoComplete="off" className="Auth-form app">
         <h1>Sign-in</h1>
         <div className="flex-container form-group row">
@@ -46,8 +46,8 @@ const Logn = () => {
           />
         </div>
         <div className="flex-container form-group row">
-          <label className="col-sm-3 col-form-label"> Password</label>
-          <input className="form-control form-control-sm"
+          <label className="col-sm-3 col-form-label "> Password</label>
+          <input className="form-control form-control-sm"  
             type="password"
             name="password"
             value={password}
@@ -63,7 +63,7 @@ const Logn = () => {
       </form>
 
     </div>
-
+    </body>
 
   );
 
